@@ -45,9 +45,9 @@
 }
 .square {
   text-align: center;
-  margin: 60px 0 0 0;
   font-family: "Segoe UI";
   font-size: 14px;
+  margin: 10px;
 
 }
 
@@ -73,7 +73,7 @@
   background-color: #fff;
   -webkit-box-shadow: 0 7px 25px rgba(0, 0, 0, 0.18);
   box-shadow: 0 7px 25px rgba(0, 0, 0, 0.18);
-  padding: 60px 25px 25px 25px;
+  padding: 60px 25px 25px 20px;
   text-align: left;
   border-radius: 3px;
 
