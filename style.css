@@ -3,6 +3,7 @@
   height: 320px;
   margin: auto;
   margin-top: 130px;
+  margin-left: -8px;
   color: black;
 }
 #container h1 {
@@ -59,7 +60,7 @@
   perspective: 1000px;
   position: relative;
   height: 100%;
-  width: 360px;
+  width: 355px;
   margin: 0 auto;
   
 }
@@ -112,7 +113,7 @@
   -o-transition: all 0.5s;
   transition: all 0.5s;
   text-align: center;
-  margin-left: 24%;
+  margin-left: 20%;
   margin-top: 40px;
 }
 
