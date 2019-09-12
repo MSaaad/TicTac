@@ -119,12 +119,11 @@
 .btn:hover {
   opacity: 0.9;
 }
-
-@media screen and (max-width: 500px) {
-  .square .square-wrapper {
-    width: 100%;
-  }
-  .square .square-box {
-    padding: 0 10px;
-  }
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;
 }
