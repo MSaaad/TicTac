@@ -1,3 +1,6 @@
+body {
+  background: #212121
+}
 #container {
   width: 320px;
   height: 320px;
@@ -11,7 +14,13 @@
   font-size: 40px;
   margin-top: -150px;
   margin-bottom: 50px;
-  color: #f75b5b;
+  color: #cf0a2c;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 .q {
   width: 100px;
@@ -42,71 +51,17 @@
   border-left: 10px solid black;
 }
 .winner {
-  color: #f75b5b;
+  color: #cf0a2c;
 }
-.square {
-  text-align: center;
-  margin: 10px 0 0 0;
-  font-family: "Segoe UI";
-  font-size: 14px;
-
-}
-
-.square .square-wrapper {
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: relative;
-  height: 100%;
-  width: 355px;
-  margin: 0 auto;
-  
-}
-.square .square-box {
-  width: 100%;
-  position: absolute;
-  left: 0;
-  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.171)
-}
-.square .square-box-inner {
-  background-color: #fff;
-  -webkit-box-shadow: 0 7px 25px rgba(0, 0, 0, 0.18);
-  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.18);
-  padding: 60px 25px 25px 25px;
-  text-align: left;
-  border-radius: 3px;
-
-}
-
-.square .square-box::after {
-  content: " ";
-  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
-  -webkit-transform: translate(0, -92.6%) scale(0.88);
-  -ms-transform: translate(0, -92.6%) scale(0.88);
-  transform: translate(0, -92.6%) scale(0.88);
-  border-radius: 3px;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  z-index: -1;
-
-}
-
 .btn {
   display: inline-block;
   border: none;
   color: #fff;
   padding: 10px 60px;
   border-radius: 3px;
-  background-color: #f75b5b;
+  background-color: #cf0a2c;
   -webkit-box-shadow: 0 2px 7px #d15050;
-  box-shadow: 0 2px 7px #f75b5b;
+  box-shadow: 0 2px 7px #cf0a2c;
   font-weight: 700;
   cursor: pointer;
   -webkit-transition: all 0.5s;
@@ -121,10 +76,10 @@
   opacity: 0.9;
 }
 @viewport {
-  zoom: 1.0;
+  zoom: 1;
   width: extend-to-zoom;
 }
 @-ms-viewport {
   width: extend-to-zoom;
-  zoom: 1.0;
+  zoom: 1;
 }
