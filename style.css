@@ -9,7 +9,7 @@
   text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
-  color: black;
+  color: #f75b5b;
 }
 .q {
   width: 100px;
@@ -40,18 +40,13 @@
   border-left: 10px solid black;
 }
 .winner {
-  color: red;
+  color: #f75b5b;
 }
 .box {
   height: 100%;
   width: 400px;
   margin: 0 auto;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   left: 0;
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
 }
 .box::after {
   content: " ";
@@ -62,19 +57,35 @@
   transform: translate(0, -92.6%) scale(0.88);
   border-radius: 3px;
   position: absolute;
-  top: 100%;
+  top: 80%;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff;
   z-index: -1;
-  box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.26);
 }
-.nam {
+.wrapper{
+-webkit-transition: all 1s;
+-o-transition: all 1s;
+transition: all 1s;
+-webkit-perspective: 1000px;
+        perspective: 1000px;
+}
+.name {
   font-size: 20px;
   font-weight: 600;
-  margin-left: 30%;
-  margin-top: 150px;
+  margin-left: 15%;
+  margin-top: 140%;
   color: black;
   text-decoration: none;
+}
+.btn{
+  padding: 6px 40px;
+  background: #f75b5b;
+  color: white;
+  border-radius: 2px ;
+  border-color: #f75b5b;
+  font-weight: 600;
+  margin-left: 33%;
+  margin-top: 40px;
 }
