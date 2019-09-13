@@ -6,7 +6,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  margin: 30px;
+  
 }
 h1 {
   text-align: center;
@@ -73,7 +73,7 @@ table tr td:last-child {
   font-family: "Segoe UI";
   text-align: center;
   font-size: 30px;
-  margin: 20px;
+  margin: 30px;
   font-weight: 600;
   color: #b64753;
   
