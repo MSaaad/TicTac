@@ -73,9 +73,9 @@ table tr td:last-child {
   font-family: "Segoe UI";
   text-align: center;
   font-size: 30px;
-  margin: 30px;
-  font-weight: 600;
-  color: #b64753;
+  margin-top: 100px;
+  font-weight: 700;
+  color: #000000e8;
   
 }
 @viewport {
