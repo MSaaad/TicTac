@@ -82,7 +82,7 @@ function checkWin(board, player) {
 
 function gameOver(gameWon) {
   for (let index of winCombos[gameWon.index]) {
-    document.getElementById(index).style.color = gameWon.player == humanPlayer ? "#274d63" : "#274d63";
+    document.getElementById(index).style.color = gameWon.player == humanPlayer ? "#b64753" : "#274d63";
   }
   for (var i = 0; i < cells.length; i++) {
     cells[i].removeEventListener('click', turnClick, false)
@@ -109,7 +109,7 @@ function bestSpot() {
 function checkTie() {
   if (emptySquares().length == 0) {
     for (var i = 0; i < cells.length; i++) {
-      cells[i].style.color = "#274d63";
+      cells[i].style.color = "#b64753";
       cells[i].removeEventListener('click', turnClick, false);
     }
     declareWinner("Nhi jeet paye? ^_^");
