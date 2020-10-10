@@ -112,7 +112,7 @@ function checkTie() {
       cells[i].style.color = "#b64753";
       cells[i].removeEventListener('click', turnClick, false);
     }
-    declareWinner("Tum se na ho payega :')");
+    declareWinner("Better Luck Next Time :')");
     return true;
   }
   return false;
