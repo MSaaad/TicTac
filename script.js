@@ -87,7 +87,7 @@ function gameOver(gameWon) {
   for (var i = 0; i < cells.length; i++) {
     cells[i].removeEventListener('click', turnClick, false)
   }
-  declareWinner(gameWon.player == humanPlayer ? "Congratulations, You Won :)" : "Game drawn :'( Try Again?");
+  declareWinner(gameWon.player == humanPlayer ? "Congratulations, You Won :)" : "Better Luck Next Time :')");
 }
 
 function declareWinner(who) {
@@ -112,7 +112,7 @@ function checkTie() {
       cells[i].style.color = "#b64753";
       cells[i].removeEventListener('click', turnClick, false);
     }
-    declareWinner("Better Luck Next Time :')");
+    declareWinner("Game drawn :'( Try Again?");
     return true;
   }
   return false;
