@@ -87,7 +87,7 @@ function gameOver(gameWon) {
   for (var i = 0; i < cells.length; i++) {
     cells[i].removeEventListener('click', turnClick, false)
   }
-  declareWinner(gameWon.player == humanPlayer ? "Wow Bro, jeet gaye :)" : "Tumse na ho payega :')");
+  declareWinner(gameWon.player == humanPlayer ? "Congratulations, You Won :)" : "Better Luck Next Time :')");
 }
 
 function declareWinner(who) {
